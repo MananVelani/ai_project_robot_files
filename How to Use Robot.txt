@@ -1,0 +1,11 @@
+How to Use Robot:
+
+1. Connect Postive and Negative Terminal of Battery.
+2. The SSID and password are already set to "Ai_Project" and "Chota_Bheem_12345" Respectively.
+3. Change your device hotspot settings to above configuration and band 2.4 Ghz.
+4. give the ip address of the esp32 from hotspot settings to the code of gesture recognition.
+5. open ipwebcam app then give the id to llm code also give your api key and picovoice api key into the llm code.
+6.Run both the files in python after downloading the respective modules used in the above code. 
+7.Both files can be run simultaneously.
+8.Use wake up word "porcupine" to ask any query to the  LLM eg, hey porcupine describe the environment.
+9.In Gesture Recognition normal hand for forward , for backward closed fist , for left or right tilt your hand 20 degrees or more in respective direction.
